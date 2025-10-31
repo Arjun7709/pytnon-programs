@@ -5,6 +5,8 @@ def primes_in_range(start, end):
                 if num % i == 0:
                     break
             else:
+
+
                 print(num, end=" ")
 
 # Example usage:
