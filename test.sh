@@ -9,7 +9,7 @@ PGUSER="postgres"
 # Run SQL script
 psql -h $PGHOST -p $PGPORT -U $PGUSER -d $PGDATABASE <<EOF
 
--- Show both tables exist
+
 SELECT table_schema, table_name
 FROM information_schema.tables
 WHERE table_schema = 'arjun'
